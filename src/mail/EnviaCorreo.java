@@ -1,5 +1,5 @@
 package mail;
-
+//en teoria
 import java.util.Properties;
 
 import javax.mail.Message;
