@@ -23,7 +23,7 @@
     <meta name="author" content="lius">
     <link rel="icon" href="favicon.ico">
 
-    <title>Sistema de Administraci&oacute;n Escolar</title>
+    <title>Sistema de Administraci&oacute;n Gym Interactive</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -47,7 +47,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <div class="navbar-brand" >Escuela</div>
+            <div class="navbar-brand" >Gym Interactive<</div>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -127,6 +127,14 @@
 							<p class="text-left">
 								<strong>Contacto: </strong><br> lius.luna@gmail.com
 							</p>
+                                                        <br> <img src="images/Lius.jpg" name="aboutme" width="140"
+                                                                height="140" border="0" class="img-circle">
+                                                        <h3 class="media-heading">
+                                                                Sergio Galvan <small>MEX</small>
+                                                        </h3>
+                                                        <p class="text-left">
+                                                                <strong>Contacto: </strong><br> checo1000@gmail.com
+                                                        </p>
 							<br>
 							<span><strong>Hecho con: </strong></span> <span
 								class="label label-warning">HTML5/CSS</span> <span
