@@ -7,14 +7,14 @@
 <jsp:directive.include file="Encabezado.jsp" />
 
 <div class="jumbotron">
-
+<!-- administración de socios -->
 	<form class="form-horizontal" action="Usuarios" method="post">
 		<fieldset>
 
 			<!-- Form Name -->
 			<legend>Alta de Usuarios</legend>
 
-			<!-- Text input-->
+			<!-- Text input -->
 			<div class="form-group">
 				<label class="col-md-4 control-label" for="nombre">Usuario</label>
 				<div class="col-md-4">
