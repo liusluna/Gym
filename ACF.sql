@@ -9,11 +9,13 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 
 -- -----------------------------------------------------
 -- Schema ACF
+-- elimina esquema
 -- -----------------------------------------------------
 DROP SCHEMA IF EXISTS `ACF` ;
-
+--
 -- -----------------------------------------------------
 -- Schema ACF
+-- crea el esquema de nuevo
 -- -----------------------------------------------------
 CREATE SCHEMA IF NOT EXISTS `ACF` DEFAULT CHARACTER SET utf8 ;
 USE `ACF` ;
