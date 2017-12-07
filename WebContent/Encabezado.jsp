@@ -3,7 +3,7 @@
 
  <%
  	
- 	//Verifica sesion valida
+ 	//Verifica sesion valida administracion de insumos
 	HttpSession misesion = request.getSession(false);
 	if (misesion.getAttribute("usuario") == null) {		
 		request.getRequestDispatcher("timeout.html").forward(request, response);
