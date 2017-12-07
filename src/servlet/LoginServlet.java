@@ -45,6 +45,7 @@ public class LoginServlet extends HttpServlet {
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		String usuario = request.getParameter("usuario");
 		String contra = request.getParameter("contra");
+		//verifica que el usuario exista
 		EntityManagerFactory emf=Persistence.createEntityManagerFactory("ACF"); //		-> NOMBRE DEL PROYECTO
 		EntityManager em=emf.createEntityManager();
 		boolean operacion = true;
