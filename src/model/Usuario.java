@@ -4,7 +4,7 @@ import java.io.Serializable;
 import javax.persistence.*;
 import java.util.Date;
 
-
+//pruebas alpha
 /**
  * The persistent class for the USUARIOS database table.
  * 
