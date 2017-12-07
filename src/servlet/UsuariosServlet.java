@@ -54,7 +54,7 @@ public class UsuariosServlet extends HttpServlet {
 
 		// realiza la operacion deseada
 		if (request.getParameter("operacion").equals("muestra")) {
-			EntityManagerFactory emf = Persistence.createEntityManagerFactory("ESCUELA_MAESTROS"); 
+			EntityManagerFactory emf = Persistence.createEntityManagerFactory("ACF"); 
 			EntityManager em = emf.createEntityManager();
 			// Abrir su try /cash / finally
 			List<Usuario> listaUsuarios = null;
@@ -95,7 +95,7 @@ public class UsuariosServlet extends HttpServlet {
 			String admin =null; if (request.getParameter("admin") != null) admin = request.getParameter("admin").toUpperCase();
 			Integer matricula = Integer.parseInt(request.getParameter("matricula"));
 
-			EntityManagerFactory emf = Persistence.createEntityManagerFactory("ESCUELA_MAESTROS");
+			EntityManagerFactory emf = Persistence.createEntityManagerFactory("ACF");
 			EntityManager em = emf.createEntityManager();
 			EntityTransaction tran = em.getTransaction();
 

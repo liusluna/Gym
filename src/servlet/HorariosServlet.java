@@ -51,7 +51,7 @@ public class HorariosServlet extends HttpServlet {
 
 		// realiza la operacion deseada
 		if (request.getParameter("operacion").equals("muestra")) {
-			EntityManagerFactory emf = Persistence.createEntityManagerFactory("ESCUELA_MAESTROS");
+			EntityManagerFactory emf = Persistence.createEntityManagerFactory("ACF");
 			EntityManager em = emf.createEntityManager();
 			// Abrir su try /cash / finally
 			List<Horariosmateria> hm = null;
@@ -89,7 +89,7 @@ public class HorariosServlet extends HttpServlet {
 			Integer materia = Integer.parseInt(request.getParameter("materia"));
 			Integer grupo = Integer.parseInt(request.getParameter("grupo"));
 
-			EntityManagerFactory emf = Persistence.createEntityManagerFactory("ESCUELA_MAESTROS");
+			EntityManagerFactory emf = Persistence.createEntityManagerFactory("ACF");
 			EntityManager em = emf.createEntityManager();
 			EntityTransaction tran = em.getTransaction();
 			// Abrir su try /cash / finally
@@ -137,7 +137,7 @@ public class HorariosServlet extends HttpServlet {
 			String horarios = request.getParameter("horarios").toUpperCase();
 			String aula = request.getParameter("aula").toUpperCase();
 
-			EntityManagerFactory emf = Persistence.createEntityManagerFactory("ESCUELA_MAESTROS");
+			EntityManagerFactory emf = Persistence.createEntityManagerFactory("ACF");
 			EntityManager em = emf.createEntityManager();
 			EntityTransaction tran = em.getTransaction();
 			// Abrir su try /cash / finally
@@ -186,7 +186,7 @@ public class HorariosServlet extends HttpServlet {
 
 				OutputStream outputStream = response.getOutputStream();
 
-				EntityManagerFactory emf = Persistence.createEntityManagerFactory("ESCUELA_MAESTROS");
+				EntityManagerFactory emf = Persistence.createEntityManagerFactory("ACF");
 				EntityManager em = emf.createEntityManager();
 				// Abrir su try /cash / finally
 
