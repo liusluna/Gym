@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 /**
  * The persistent class for the HORARIOSMATERIAS database table.
- * 
+ * Pruebas alfa
  */
 @Entity
 @Table(name="HORARIOSMATERIAS")
