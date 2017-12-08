@@ -8,7 +8,8 @@
 <jsp:directive.include file="Encabezado.jsp" />
 
 <%
-	EntityManagerFactory emf = Persistence.createEntityManagerFactory("ESCUELA_MAESTROS");
+	//entity manager
+	EntityManagerFactory emf = Persistence.createEntityManagerFactory("ACF");
 	EntityManager em = emf.createEntityManager();
 	// Abrir su try /cash / finally
 
