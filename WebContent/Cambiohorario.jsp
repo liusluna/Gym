@@ -131,7 +131,7 @@
 
 
 	<!-- Paginación -->
-
+	<!-- Sirve para paginar los fresultados en paginas mas faciles de leer -->
     <nav aria-label="Page navigation">
   	<ul class="pagination">
     <%	
