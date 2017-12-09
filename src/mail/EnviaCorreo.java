@@ -29,7 +29,7 @@ public class EnviaCorreo {
 		System.out.println("Mail Server Properties have been setup successfully..");
 		
 		//paso2
-		System.out.println("\n\n 2nd ===> get Mail Session..");
+		System.out.println("\n\n 2nd ===> iniciar session de correo..");
 		getMailSession = Session.getDefaultInstance(mailServerProperties, null);
 		generateMailMessage = new MimeMessage(getMailSession);
 		
@@ -38,7 +38,7 @@ public class EnviaCorreo {
 		generateMailMessage.setSubject(Asunto);
 		generateMailMessage.setContent(MensajeHTML, "text/html");
 		
-		System.out.println("Mail Session has been created successfully..");
+		System.out.println("Sesión de correo creada satisfactoriamente..");
 		
 		
 		//paso3
